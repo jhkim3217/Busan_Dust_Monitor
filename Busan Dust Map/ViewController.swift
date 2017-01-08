@@ -4,7 +4,7 @@
 //
 //  Created by 김종현 on 2016. 11. 5..
 //  Copyright © 2016년 김종현. All rights reserved.
-//
+//  XCode 8.2
 
 import UIKit
 import MapKit
@@ -280,14 +280,6 @@ class ViewController: UIViewController, XMLParserDelegate, MKMapViewDelegate,
         let region = MKCoordinateRegionMake(location, span)
         DustMapView.setRegion(region, animated: true)
         
-        // anno test
-        // add annotaton
-//        let annotation = MKPointAnnotation()
-//        annotation.coordinate = location
-//        annotation.title = "동의과학대학교"
-//        annotation.subtitle = "DIT"
-//        DustMapView.addAnnotation(annotation)
-//        DustMapView.delegate = self
     }
     
     
