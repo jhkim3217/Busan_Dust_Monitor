@@ -11,8 +11,6 @@ import MapKit
 import CoreLocation
 
 //var currentTime: String?
-// 공공데이터 인증키
-//let key = "aT2qqrDmCzPVVXR6EFs6I50LZTIvvDrlvDKekAv9ltv9dbO%2F8i8JBz2wsrkpr9yrPEODkcXYzAqAEX1m%2Fl4nHQ%3D%3D"
 
 class ViewController: UIViewController, XMLParserDelegate, MKMapViewDelegate,
       CLLocationManagerDelegate {
